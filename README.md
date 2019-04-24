@@ -31,7 +31,7 @@ _**WorkingXML,Files,FileSystem,SYSModule,Practice**_
     print(doc.firstChild.tagName)
     
     skills = doc.getElementByTagName("skill")
-    print(" %s skills: " %skills.length)
+    print(" %d skills: " %skills.length)
     
     for skill in skills:
       print(skill.getAttribute("name"))
